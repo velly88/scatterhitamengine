@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #00000000;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    background-image: url('BG SCATTER.PNG');
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: cover;
+}
+
+.content {
+    background-color: rgba(0 0 0 / 44%);
+    padding: 50px;
+    border-radius: 1px;
+    text-align: center;
+    box-shadow: 1 5 100px rgba(0, 255, 243);
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #00deff;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+input, select {
+    background-color: #ffffff;
+    color: #00deff;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 80px;
+    background-color: #00c9ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #00c9ff;
+}
